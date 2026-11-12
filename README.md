@@ -1,10 +1,10 @@
 # Mantenimiento y optimizacion del almacenamiento de Docker Desktop en Windows
 
-**Objetivo:** diagnosticar, limpiar y recuperar espacio en disco ocupado por Docker Desktop utilizando WSL2, sin perder imagenes, contenedores ni volumenes persistentes
-**Plataforma:** Windows 10/11 + Docker Desktop + WSL2  
-**Nivel:** Intermedio  
-**Frecuencia recomendada:** Revision mensual o cuando el almacenamiento de Docker crezca considerablemente
-**Equipo:** CoreDataOps
+- **Objetivo:** diagnosticar, limpiar y recuperar espacio en disco ocupado por Docker Desktop utilizando WSL2, sin perder imagenes, contenedores ni volumenes persistentes
+- **Plataforma:** Windows 10/11 + Docker Desktop + WSL2  
+- **Nivel:** Intermedio  
+- **Frecuencia recomendada:** Revision mensual o cuando el almacenamiento de Docker crezca considerablemente
+- **Equipo:** CoreDataOps
 ---
 
 ## 1. Introduccion
