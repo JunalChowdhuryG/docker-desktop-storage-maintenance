@@ -185,9 +185,12 @@ Si existen otras propiedades, conservarlas e integrar `builder` dentro del objet
 | enabled | Habilita la recoleccion automatica |
 | defaultKeepStorage | Define el umbral de almacenamiento utilizado por las politicas de GC |
 
-El valor de 8 GB es una configuracion orientativa para entornos de desarrollo con almacenamiento limitado
-**Importante:** `defaultKeepStorage` no constituye un limite rigido de todo Docker ni de todo el archivo VHDX. Influye en las politicas de recoleccion de cache de BuildKit
+El valor de 8 GB es una configuracion orientativa para entornos de desarrollo con almacenamiento limitado  
+
+**Importante:** `defaultKeepStorage` no constituye un limite rigido de todo Docker ni de todo el archivo VHDX. Influye en las politicas de recoleccion de cache de BuildKit  
+
 La configuracion predeterminada de Docker ya incluye politicas de limpieza automatica. Personalizarla es opcional
+
 ---
 
 ## 5. Compactacion del disco virtual VHDX
